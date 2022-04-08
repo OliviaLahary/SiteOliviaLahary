@@ -1,0 +1,617 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box; 
+    font-size: 15px; 
+}
+
+/* div{
+    border: 1px solid black; 
+}  */
+
+body{
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+    padding: 0px 20px;
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.nav-item{
+    color: white;
+}
+ 
+.navbar{
+    text-align: center;
+    width: 80%;
+}
+
+#panel{
+    padding: 15px;
+    display: none;
+} 
+
+.status{
+    font-weight: 700;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-nav{
+    margin-left: 30px;
+    padding: 0px;
+    width: 100%;
+    margin:auto;
+    margin-bottom: 10px;
+    text-align: center; 
+    display: inline;   
+}
+
+.navbar-nav ul li{
+    display: inline-block;
+    width: auto;
+    margin: 15px;
+}
+/* barre de navigation du milieu */
+.navbar-middle{
+    
+    padding-top: 0px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.navbar-middle ul{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+
+.navbar-middle li{
+    margin-left:2px;
+    float:left;
+}
+.navbar-middle ul li{
+    display:block;
+    float:left;   
+    width:auto;
+    text-decoration:none;
+    text-align:center;
+    padding:5px;
+}
+
+.navbar-middle a{
+    color: #29292A;
+    cursor: pointer;
+}
+
+.navbar-middle a:hover{
+    color:#29292A;
+    text-decoration:none;
+    /* font-size: large; */
+    border-bottom:2px solid rgb(177, 175, 174);
+}
+
+.active{
+    border-bottom: 2px solid rgb(252, 101, 26) 
+}
+
+/* Corps du texte */
+.container-header{
+    display: inline-block;
+    width: 80%;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+
+.container{
+    display: inline-block;
+    width: 80%;
+    padding: 20px;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+
+.card-pack{
+    display: inline;
+    width: auto;
+}
+
+.card-index{
+    display: inline-block;
+    height: auto;
+    width: 50%;
+    margin: 0px 2.5% 30px;
+    box-shadow: 0px 1px 8px #7c7c7e;
+    padding: 20px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+
+.card{
+    display: inline-block;
+    height: 400px;
+    margin: 0px 2.5% 30px;
+    box-shadow: 0px 1px 8px #7c7c7e;
+    padding: 20px;
+    width: 80%;
+}
+
+.card:hover{
+    border: 2px solid #676768;
+    box-shadow: 10px 10px 0 0  #bebebe;
+}
+
+.card-body{
+    display: flex;
+    
+}
+
+.img-real{
+    width: 70%;
+    height: auto;
+}
+
+.card-text{
+    margin: 20px auto ;
+}
+
+.left{
+    position: relative;
+    width: 75%;
+    text-align: center;
+}
+
+aside{
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-light{
+    background-color:#F9F9F9
+}
+
+
+.Absolute-Center {
+    background-color:#F9F9F9;
+    color: #29292A;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    width: auto;
+}  
+
+
+.button{
+    border: 1px solid#c4e8f8;
+    background-color:#c4e8f8;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border-radius: 10px;  
+}
+
+ul{
+    list-style-type: none;
+}
+
+.telechargement{
+    text-decoration: none;
+    color:  #29292A;
+}
+
+.telechargement:hover{
+    color: #29292A;
+    
+}
+
+.title{
+    font-weight: 700;
+    color: #29292A;
+    text-decoration: none;
+}
+
+.title:hover{
+    font-weight: 700;
+    color: #29292A;
+    text-decoration: none;
+}
+
+
+/* bkgdcolor bleu tres clair */
+.link{
+    color: rgb(31, 128, 255) ;
+    background-color: rgb(229, 249, 252);
+}
+
+.link:hover{
+    color:  rgb(31, 128, 255);
+    /* text-decoration: underline; */
+    /* bkgdcolor bleu un peu plus foncé quand hover */
+    background-color: rgb(186, 242, 252);
+}
+
+.link-exp{
+    color: #29292A;
+    text-decoration: none;
+}
+.link-exp:hover{
+    color: #29292A;
+    text-decoration: underline;
+    
+}
+
+/* page CV */
+
+h1{
+    margin: 40px;
+}
+
+.experiences{
+    display: flex;
+    width: 80%;
+    border: 1px solid #29292A;
+    background-color: #fdfdfd;
+}
+.colLeft{
+    width: 45%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.colRight{
+    width: 45%;
+    text-align: left; 
+    padding: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #f8f8f8;
+}
+
+/* skills */
+.skills{
+    margin: unset !important;
+}
+.nav-icon{
+    margin: 16px;
+    padding: 5px;
+}
+
+.icon{
+    margin: 20px;
+    padding: 5px;
+}
+
+/* .skills  */
+.picture{
+    display: inline;
+    height: 300px;
+    width: 250px;
+}
+
+
+.block{
+    margin: 30px;
+    padding: 30px;
+}
+
+
+.progress{
+    height: auto;
+}
+
+.icon-progress{
+    width: 45%;
+    display: inline-block;
+    margin: 15px;
+    padding: auto;
+    
+}
+
+.row{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* responsive tablettes */
+
+@media (min-width: 600px) and (max-width: 1000px) { 
+    body{
+        
+        color: #333333;
+        text-align: center;
+        padding: 0px;
+        width: 100%;
+        
+        background-color: #f8f8f8;
+    }
+    .navbar{
+        width: 90%;
+        text-align: center;
+    }
+    .container{
+        display: inline-block;
+        width: 90%;
+        padding: 20px;
+        background-color: #fdfdfd;
+        text-align: center;
+    }
+    .container-header{
+        display: inline-block;
+        width:90%;
+        background-color: #F1F1F1;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-real{
+        width: 100%;
+        height: auto;
+    }
+    .card-index{
+        display: inline-block;
+        height: auto;
+        width: 100%;
+        margin: 0px 2.5% 30px;
+        box-shadow: 0px 1px 8px #7c7c7e;
+        padding: 2px;
+    }
+
+    .colLeft{
+        width: 25%;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        
+    }
+    .colRight{
+        width: 65%;
+        text-align: left; 
+        padding: 5px;
+    }
+    
+    .picture{
+        display: inline;
+        height: 200px;
+        width: 175px;
+    }
+
+}
+
+
+/* responsive index les cartes*/
+@media (min-width: 300px) and (max-width: 600px) {
+    body{
+        font-size: 8px!important ;
+        color: #333333;
+        text-align: center;
+        padding: 0px 2px;
+        width: 100%;
+        height: auto;
+        background-color: #f8f8f8;
+    }
+    .navbar{
+        width: 100%;
+        text-align: center;
+    }
+    .left{
+        font-size: 8px;
+    }
+
+    .container{
+        display: inline-block;
+        width: 100%;
+        padding: 2px;
+        background-color: #fdfdfd;
+        text-align: center;
+    }
+    
+    .container-header{
+        display: inline-block;
+        width:100%;
+        background-color: #F1F1F1;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+    .menu{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 60px;
+    }
+      
+    .menuList .nav-link{
+        display: block;
+    }
+   
+    .experiences{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .card{
+        display: inline-block;
+        height: auto;
+        margin: 2.5%;
+        box-shadow: 0px 1px 2px #7c7c7e;
+        padding: 20px;
+        width: 90%;
+    }
+
+    .card-index{
+        display: inline-block;
+        height: auto;
+        width: 90%;
+        margin: 0px 2.5% 3px;
+        box-shadow: 0px 1px 2px #7c7c7e;
+        padding: 2px;
+    }
+    .block1{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .picture{
+        display: inline;
+        height: 150px;
+        width: 120px;
+    }
+
+    .img-real{
+        width: 100%;
+        height: auto;
+    }
+
+    .icon-progress{
+        width: 100%;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colLeft{
+        width: 25%;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 300;
+        
+    }
+    .colRight{
+        width: 75%;
+        text-align: left; 
+        padding: 1px;
+    }
+
+
+    .footer{
+        width: 100%;
+        height: 30px;
+        background-color: #f1f1f1;
+    }
+    
+
+} 
+
+@media screen and (max-width: 300px) {
+    body{
+        font-size: 8px!important ;
+        color: #333333;
+        text-align: center;
+        padding: 0px 2px;
+        width: 100%;
+        height: auto;
+        background-color: #f8f8f8;
+    }
+    .navbar{
+        width: 100%;
+        text-align: center;
+    }
+    .left{
+        font-size: 8px;
+    }
+
+    .container{
+        display: inline-block;
+        width: 100%;
+        padding: 2px;
+        background-color: #fdfdfd;
+        text-align: center;
+    }
+    .img-real{
+        width: 100%;
+        height: auto;
+    }
+    .container-header{
+        display: inline-block;
+        width:100%;
+        background-color: #F1F1F1;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+    .menu{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 60px;
+    }
+      
+    .menuList .nav-link{
+        display: block;
+    }
+   
+    .experiences{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .card{
+        display: inline-block;
+        height: auto;
+        margin: 2.5%;
+        box-shadow: 0px 1px 2px #7c7c7e;
+        padding: 20px;
+        width: 90%;
+    }
+
+    .card-index{
+        display: inline-block;
+        height: auto;
+        width: 90%;
+        margin: 0px 2.5% 3px;
+        box-shadow: 0px 1px 2px #7c7c7e;
+        padding: 2px;
+    }
+    .block1{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .picture{
+        display: inline;
+        height: 150px;
+        width: 120px;
+    }
+
+
+    .icon-progress{
+        width: 100%;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .footer{
+        width: 100%;
+        height: 30px;
+        background-color: #f1f1f1;
+    }
+    
+
+} 
+
+
+
+
+
