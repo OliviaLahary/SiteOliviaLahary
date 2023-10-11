@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box; 
     font-size: 15px; 
+    /*border: 1px solid black; */
     
 }
 
@@ -265,6 +266,16 @@ ul{
     
 }
 
+.lienInternet{
+    text-decoration: none;
+    color: #29292A;
+}
+
+.lienInternet:hover{
+    color: #29292A;
+    text-decoration: none;
+}
+
 /* page CV */
 
 h1{
@@ -340,6 +351,22 @@ h1{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*plan du site */
+
+.containerPlanDuSite{
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.centered-list{
+    padding: 40px;
+    margin: 20px;
 }
 
 /* responsive tablettes */

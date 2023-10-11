@@ -16,11 +16,11 @@ $(function() {
         if($(this).scrollTop() > 300) {
             $('#divDuHaut').fadeIn(500);
 
-            $('#sc').on('mouseover', function() {
-                $('#sc').attr('src', 'img/sc2.png');
+            $('#sc1').on('mouseover', function() {
+                $('#sc1').attr('src', 'img/sc2.png');
             });
-            $('#sc').on('mouseout', function() {
-                $('#sc').attr('src', 'img/sc1.png');
+            $('#sc1').on('mouseout', function() {
+                $('#sc1').attr('src', 'img/sc1.png');
             });
         }
         else{
@@ -50,4 +50,3 @@ $(function() {
         }
     });
 });
-

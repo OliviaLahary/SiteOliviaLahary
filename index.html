@@ -71,7 +71,7 @@
             <div class="card-body">
             <a href="img/CVOliviaLAHARY2023Testeuse.pdf" class="card-link telechargement" target="_blank">CV <b> Testeuse </b> à télécharger <img src="img/pdf_reseized.png" alt="logo pdf"></a>
             <a href="img/CVOliviaLAHARY2023Developpeuse.pdf" class="card-link telechargement" target="_blank">CV <b> Développeuse </b> à télécharger <img src="img/pdf_reseized.png" alt="logo pdf"></a>
-            <a href="img/CVOliviaLAHARY2023CheffeDeProjet.pdf" class="card-link telechargement" target="_blank">CV <b> Cheffe de projet  </b> à télécharger <img src="img/pdf_reseized.png" alt="logo pdf"></a>
+            <!--<a href="img/CVOliviaLAHARY2023CheffeDeProjet.pdf" class="card-link telechargement" target="_blank">CV <b> Cheffe de projet  </b> à télécharger <img src="img/pdf_reseized.png" alt="logo pdf"></a>-->
             </div>
         </div>
         
@@ -141,11 +141,21 @@
 <!-- Ajout d'une fleche de retour vers le haut -->
     <div id="divDuHaut">
         <a href="#" style="display: block; position: fixed; bottom: 15px; right: 70px;">
-            <img src="img/sc1.png" alt="fleche" id="sc">
+            <img src="img/sc1.png" alt="fleche" id="sc1">
         </a>
     </div>
 
-    <footer class="footer"> &copy; OLIVIA LAHARY 2023</footer>
+    <footer>
+        <div class="container"> 
+            <a class="lienInternet"  href="pages/PlanDuSite.html"> Plan du site </a>  | <a class="lienInternet" href="pages/mentionsLegales.html"> Mentions Légales </a> | <a class="lienInternet"  href="pages/politiqueDeConfidentialite.html"> Politique de confidentialité </a></div>
+        <div class="footer"> &copy; OLIVIA LAHARY 2023 </div>
+    </footer>
+
+<script>
+    document.getElementById('retour').addEventListener('click', function() {
+    window.location.href = 'index.html';
+  });
+</script>    
 
 <!-- on met les bibliotheques bootstrap et jQuery en fin de page -->
 <script src="js/jquery-3.5.1.min.js"></script>
